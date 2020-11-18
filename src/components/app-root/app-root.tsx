@@ -1,7 +1,7 @@
 import { Component, h } from '@stencil/core';
 
 const enterGuard = () =>{
-  console.log('You shall not pass!');
+  console.log('You shall not pass!'); // Never get's called
   return false;
 }
 
